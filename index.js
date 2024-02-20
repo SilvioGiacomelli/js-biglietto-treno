@@ -1,4 +1,3 @@
-
 ////Quanti anni hai?
 let eta = prompt("Inserisci la tua età");
 ////Quanti km devi percorrere?
@@ -30,4 +29,4 @@ if(eta > 65) {
 }
 
   ////Stampo su HTML
-  document.getElementById("prezzoTotale").innerHTML += prezzoBiglietto; 
+  document.getElementById("prezzoTotale").innerHTML += prezzoBiglietto + " €"; 
