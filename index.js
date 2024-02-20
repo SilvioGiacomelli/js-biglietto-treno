@@ -15,16 +15,16 @@ if(eta < 17) {
   prezzoBiglietto = prezzoBiglietto - prezzoMinorenni;
   console.log(prezzoBiglietto);
 }
-////Impostare eta maggiorenne
-if(eta > 18) {
-  alert("Sei Maggiorenne e paghi prezzo pieno.")
-  console.log(prezzoBiglietto);
-}
 ////Impostare eta Anziano
-if(eta > 65) {
+else if(eta > 65) {
   alert("Sei Anziano e hai diritto al prezzo ridotto del 40%.")
   prezzoAnziani = prezzoBiglietto * scontoAnziani;
   prezzoBiglietto = prezzoBiglietto - prezzoAnziani;
+  console.log(prezzoBiglietto);
+}
+////Impostare eta maggiorenne
+else{
+  alert("Sei Maggiorenne e paghi prezzo pieno.")
   console.log(prezzoBiglietto);
 }
 
