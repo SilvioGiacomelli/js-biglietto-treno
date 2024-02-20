@@ -27,6 +27,5 @@ else{
   alert("Sei Maggiorenne e paghi prezzo pieno.")
   console.log(prezzoBiglietto);
 }
-
-  ////Stampo su HTML
+////Stampo su HTML
   document.getElementById("prezzoTotale").innerHTML += prezzoBiglietto + " €"; 
