@@ -29,15 +29,5 @@ if(eta > 65) {
   console.log(prezzoBiglietto);
 }
 
-
-
-// console.log(kmViaggio, eta);
-
-// document.getElementById("prezzoTotale").innerHTML +=
-// //html--------------------------------
-// `
-// ${prezzoBiglietto}&#8364;
-// `;
-// //------------------------------------------
-
-
+  ////Stampo su HTML
+  document.getElementById("prezzoTotale").innerHTML += prezzoBiglietto; 
