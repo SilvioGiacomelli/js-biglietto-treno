@@ -1,7 +1,5 @@
 let eta = prompt("Inserisci la tua età");
 
-
-
 const etaMinorenni = 17;
 const etaMaggiorenni = 18;
 const etaAnziani = 65;
@@ -16,10 +14,14 @@ if (eta < etaMaggiorenni) {
 }
 
 
-console.log(eta)
+console.log(eta);
 
 
-let kmViaggio = prompt("Quanti km devi fare?");
+const kmViaggio = prompt("Quanti km devi fare?");
+
+console.log(kmViaggio);
 
 
-console.log(kmViaggio)
+const prezzoBiglietto = kmViaggio * prezzoKm;
+
+
