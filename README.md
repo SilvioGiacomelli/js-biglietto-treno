@@ -10,7 +10,7 @@ Possibile flusso:
 1. Chiedere al passeggero quanti anni ha
 2. Chiedere al passeggero quanti km deve percorrere
 3. Impostare il concetto di minorenni facendo numero minore uguale a 17
-4. Impostare il concetto di anziani facendo numero maggiore uguale a 65
+4. Impostare il concetto di anziani facendo numero maggiore a 65
 5. Settare il valore di prezzo per Km di 0,21€ 
 6. Settare lo sconto del 20% per minorenni 
 7. Settare lo sconto del 40% per anziani
