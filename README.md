@@ -9,9 +9,9 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio,
 Flusso:
 1. Chiedere al passeggero quanti anni ha
 2. Chiedere al passeggero quanti km deve percorrere
-3. Impostare il concetto di minorenni facendo numero minore uguale a 17
-4. Impostare il concetto di anziani facendo numero maggiore a 65
-5. Settare il valore di prezzo per Km di 0,21€ 
-6. Settare lo sconto del 20% per minorenni 
-7. Settare lo sconto del 40% per anziani
-8. impostare numero massimo cifre per prezzo
+3. Settare il valore di prezzo per Km di 0,21€ 
+4. Settare lo sconto del 20% per minorenni 
+5. Settare lo sconto del 40% per anziani
+6. Impostare il concetto di minorenni facendo numero minore uguale a 17 e sconto annesso
+7. Impostare il concetto di anziani facendo numero maggiore a 65 e sconto annesso
+8. Stampare su Html
